@@ -10,37 +10,42 @@
 <body>
 
     <header class="header">
+
         <div class="menu container">
-            <a href="#" classc"logo".logo</a>
+
+            <a href="#" class="logo">Estaba vacío, imagino que va un logo</a>
+
                 <input type="checkbox" id="menu"/>
+
                 <label for="menu">
                     <img src="Imagenes de Pagina/menu.png" class="menu-icono" alt="menu">
                 </label>
-                <nav class="navbar">
-                    <ul>
 
+                <nav class="navbar">
+
+                    <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Nosotros</a></li>
                     <li><a href="#">Servicio</a></li>
                     <li><a href="#">Contacto</a></li>
+                    </ul>
 
-                </u>
                 </nav>
         </div>
         
-     <div class="header-content container">
-          <div class="header-txt"
-        <h1>Medical center</h1>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, amet necessitatibus? Odit
-             facilis ipsam error sit nihil consequatur aliquam? Dolor 
-             minima, error vel veniam quidem nesciunt distinctio eum corrupti hic?
+    <div class="header-content container">
+            <div class="header-txt">
+                <h1>Medical center</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, amet necessitatibus? Odit
+                        facilis ipsam error sit nihil consequatur aliquam? Dolor 
+                        minima, error vel veniam quidem nesciunt distinctio eum corrupti hic?
 
-        </p>
-        <a href="#" class="btn-1">informacion</a>
-        </div>
+                    </p>
+                <a href="#" class="btn-1">informacion</a>
+            </div>
         <div class="header-img">
-            <img src="Imagenes de Pagina/left.png"alt="";
+            <img src="Imagenes de Pagina/left.png"alt="">
         </div>
     </div>
 
@@ -73,24 +78,24 @@
     <main class="servicio">
         <h2>Servicio</h2>
     <div class="servicio-1">
-        <i class="fa-sharp" fa-solid fa-hospital-user"></i>
+        <i class="fa-sharp fa-solid fa-hospital-user"></i>
         <h3>pediatria</h3>
     </div>
 
     <div class="servicio-1">
-        <i class="fa-sharp" fa-solid fa-stehoscope"></i>
+        <i class="fa-sharp fa-solid fa-stehoscope"></i>
         <h3>ginecologia</h3>
     </div>
 
     <div class="servicio-1">
-        <i class="fa-sharp" fa-solid fa-bad-pulse"></i>
+        <i class="fa-sharp fa-solid fa-bad-pulse"></i>
         <h3>dermatologia</h3>
     </div>
 
 
 
     <div class="servicio-1">
-    <i class="fa-sharp" fa-solid fa-hospital-user"></i>
+    <i class="fa-sharp fa-solid fa-hospital-user"></i>
     <h3>cardiologia</h3>
 </div>
 
@@ -98,21 +103,21 @@
     </main>
 
     <section class="formulario container">  
-        <form mathod="post" autocomplete="off">
+        <form method="post" autocomplete="off">
             <h2>Agenda Consulta</h2>    
             <div class="input-group">
                 <div class="input-container">
-                    <input tyep"text" name="name" placeholder="Nombe y apellido">
-                    <i class="fa-solid fa phone"></i>
+                    <input type"text" name="name" placeholder="Nombre y apellido">
+                    <i class="fa-solid fa-phone"></i>
                 </div>
 
                 <div class="input-container">
-                    <input type="tel" nname="phone" placeholder="Telefono celular">
+                    <input type="tel" name="phone" placeholder="Telefono celular">
                     <i class="fa-solid fa-envelope"></i>
                 </div>
 
                 <div class="input-container">
-                    <input type "email" name="email" placeholder="Correo">
+                    <input type="email" name="email" placeholder="Correo">
                     <i class="fa-solid fa-envelope"></i>
                 
                 </div>
@@ -120,22 +125,22 @@
                 <div class="input-container">
                     <textarea name="message" placeholder="Detalles de la conculta"></textarea>
                 </div>
-                <input type="submit" name="send" class="btn" onclick="myFuntion()">
+                <input type="submit" name="send" class="btn" onclick="myFunction()">
             </div>
         </form>
     </section>
     
-    <footer class "fogter">
+    <footer class="footer">
         <div class="footer-content container">
 
         
         <div class "link">
             <ul>
 
-            <li><<a href="#">Inicio</a></li>
-            <li><<a href="#">Nosotros</a></li>
-            <li><<a href="#">Servicio</a></li>
-            <li><<a href="#">Contacto</a></li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Servicio</a></li>
+            <li><a href="#">Contacto</a></li>
             </ul>
             </div>
         </div>
@@ -145,11 +150,11 @@
     include("send.php");
     ?>
 
-    <scrip>
+    <script>
 
-        funtion myFuction(){
-            windon.location.href="http://localhost/pagina"
+        function myFunction(){
+            window.location.href="http://localhost/pagina";
         }
-    </scrip>
+    </script>
 </body>
 </html>
