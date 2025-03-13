@@ -25,7 +25,7 @@
 
                     <ul>
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="vistas/nosotros.php">Nosotros</a></li>
                     <li><a href="#">Servicio</a></li>
                     <li><a href="#">Contacto</a></li>
                     </ul>
@@ -37,9 +37,20 @@
             <div class="header-txt">
                 <h1>Medical center</h1>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, amet necessitatibus? Odit
-                        facilis ipsam error sit nihil consequatur aliquam? Dolor 
-                        minima, error vel veniam quidem nesciunt distinctio eum corrupti hic?
+                    Bienvenidos a [Nombre del Centro Médico]
+
+            En [Nombre del Centro Médico], nos dedicamos a brindar atención integral y de calidad a nuestros pacientes, ofreciendo servicios especializados en ginecología, cardiología, dermatología y pediatría. Nuestro equipo de profesionales altamente capacitados está comprometido con tu salud y bienestar, proporcionando un ambiente cálido y acogedor para que te sientas cómodo durante cada visita.
+
+            Ginecología: Ofrecemos un enfoque integral en la salud de la mujer, desde chequeos rutinarios hasta atención especializada en embarazo y menopausia. Nuestro objetivo es acompañarte en cada etapa de tu vida.
+
+            Cardiología: Nuestro equipo de cardiólogos se enfoca en la prevención, diagnóstico y tratamiento de enfermedades del corazón, utilizando tecnología de vanguardia para garantizar una atención precisa y efectiva.
+
+           Dermatología: Cuidamos de tu piel con tratamientos personalizados para diversas condiciones dermatológicas. Ya sea que necesites un chequeo de rutina o tratamiento para problemas específicos, estamos aquí para ayudarte.
+
+            Pediatría: En [Nombre del Centro Médico], entendemos la importancia de la salud infantil. Nuestros pediatras están dedicados a proporcionar atención cariñosa y profesional a los más pequeños, asegurando su crecimiento y desarrollo saludable.
+
+            Te invitamos a visitarnos y experimentar un enfoque integral en salud, donde cada paciente es tratado con respeto y dedicación. ¡Tu bienestar es nuestra prioridad!
+
 
                     </p>
                 <a href="#" class="btn-1">informacion</a>
@@ -107,7 +118,7 @@
             <h2>Agenda Consulta</h2>    
             <div class="input-group">
                 <div class="input-container">
-                    <input type"text" name="name" placeholder="Nombre y apellido">
+                    <input type="text" name="name" placeholder="Nombre y apellido">
                     <i class="fa-solid fa-phone"></i>
                 </div>
 
@@ -134,7 +145,7 @@
         <div class="footer-content container">
 
         
-        <div class "link">
+        <div class="link">
             <ul>
 
             <li><a href="#">Inicio</a></li>

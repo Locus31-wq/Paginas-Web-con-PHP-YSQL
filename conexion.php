@@ -1,6 +1,7 @@
 <?php
- 
- include("conexion.php");
+   
+   include("conexion.php");
+
 
  if(isset($_POST['SEND'])){
     if(
@@ -9,10 +10,10 @@
         strlen($_POST['email']) >= 1 &&
         strlen($_POST['message']) >= 1
     ){
-        $name = trin($_POST['name']);
-        $name = trin($_POST['Phone']);
-        $name = trin($_POST['email']);
-        $name = trin($_POST['message']);
+        $name = trim($_POST['name']);
+        $name = trim($_POST['Phone']);
+        $name = trim($_POST['email']);
+        $name = trim($_POST['message']);
         $consulta = "INSERT INTD datos(nombre, telefono, email, mensaje)
         VALUES('$name', '$phone', '$email', '$message')";
         $resultado = mysqli_query($conex, $consulta);
